@@ -1,0 +1,36 @@
+@import './colors';
+.list {
+    &__channels {
+        text-align: center;
+        padding-bottom: 10px;
+        &--isencao {
+            padding-bottom: 5px;
+        }
+    }
+    &__channels-text {
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    &__channels-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &--digital {
+            padding-top: 5px;
+        }
+    }
+    &__channels-img{
+        &--digital {
+            width: 30px;
+            margin: 0 5px;
+        }
+    }
+    &__channels-url {
+        color: #000;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        &:hover{
+            border-bottom: 0;
+        }
+    }
+}

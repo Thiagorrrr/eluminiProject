@@ -1,0 +1,77 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+@import './colors';
+@import './header';
+@import './select';
+@import './card';
+@import './price';
+@import './buttom';
+@import './list';
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content {
+  overflow: auto;
+  &__wrapper {
+    padding: 10px 10px 0 10px;
+
+    @media screen and (min-width: 1024px) {
+      padding: 40px 0 0 40px;  
+    }
+  }
+  &__card {
+    margin: 35px 0 40px;
+    @media screen and (min-width: 1024px) {
+      margin: 70px 0 60px;
+    }
+  }
+  &__card-title {
+    font-size: 1.6rem;
+    padding: 0 10px;
+
+    @media screen and (min-width: 1024px) {
+      padding-bottom: 35px;
+
+      font-size: 2rem;
+      text-align: center;
+    }
+    
+  }
+}
+
+.channels-url {
+  text-decoration: none;
+}
+
+.dependent {
+  line-height: 1;
+  &__description,
+  &__text {
+    width: 100%;
+    display: inline-block;
+
+    text-align: center;
+  }
+  &__description {
+    font-size: 0.9rem;
+    color: @grey;
+  }
+}
+
+.rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+
+  background-color: rgba(144, 144, 144, 0.3);
+
+  text-align: center;
+}
+
+.swiper-container-horizontal > 
+.swiper-pagination-bullets {
+  bottom: 0;
+}

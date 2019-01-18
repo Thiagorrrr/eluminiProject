@@ -1,0 +1,40 @@
+@import './colors';
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+  
+    @media screen and (min-width: 1024px) {
+        padding-top: 15px;
+    }
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+
+      padding-left: 2px;
+    }
+    &__symbol {
+        margin-top: 25px;
+        padding-right: 5px;
+
+        font-size: 25px;
+    }
+    &__int {
+        padding-top: 5px;
+
+        font-size: 3.5rem;
+  
+      @media screen and (min-width: 1024px) {
+        padding-top: 0;
+        padding-top: 8px;
+      }
+    }
+    &__cent {
+      font-size: 25px;
+    }
+    &__month {
+      text-transform: uppercase;
+    }
+}

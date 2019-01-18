@@ -1,0 +1,54 @@
+
+<div class="swiper-container slide__container">
+    <div class="swiper-wrapper cards" data-bind="foreach: apiData" >
+        <div class="swiper-slide card">
+            <div class="card__wrapper"> 
+                <span class="card__plan-type" data-bind="text: plano"></span>
+                <span class="card__plan-gb" data-bind="text: velocidade"></span>
+            
+                <div class="list__channels list__channels--isencao" data-bind="if: isencao != ''">
+                    <span class="list__channels-text">
+                    Apps com <a  href="" class="list__channels-url">internet ilimitada: </a>
+                    </span>
+            
+                    <div class="list__channels-content list__channels-content--isencao" data-bind="foreach: isencao">  
+                        <img class="list__channels-img--isencao" data-bind="attr:{src:$data+'.png'}" /> 
+                    </div>
+                </div>
+    
+                <div class="list__channels" data-bind="if: conteudoDigital != ''">
+                    <span class="list__channels-text">
+                        <a href="" class="list__channels-url">Conteúdo digital</a> em vídeo:
+                    </span>
+            
+                    <div class="list__channels-content list__channels-content--digital" data-bind="foreach: conteudoDigital">  
+                        <img  class="list__channels-img--digital" data-bind="attr:{src:$data+'.png'}" /> 
+                    </div>
+                </div>
+                
+                <div class="dependent">
+                    <span class="dependent__text">Adicione dependentes </span>
+                    <span class="dependent__description"> por mais R$
+                        <span data-bind="text: $data['dependente-preco']"></span> cada 
+                    </span> 
+                
+                </div>
+    
+                <div class="price" >           
+                    <span class="price__symbol">R$</span>
+                    <span class="price__int" data-bind="text: preco.split(',',2)[0]" ></span> 
+                    <div class="price__wrapper">
+                        <span class="price__cent" data-bind="text: ','+ preco.split(',',2)[1]"></span> 
+                        <span class="price__month">/mês</span>
+                    </div>
+                </div>
+    
+                <a class="buttom"> 
+                    Eu quero
+                </a>
+            </div>
+        </div>
+    </div> 
+    <div class="swiper-pagination pagination"></div>
+</div>
+

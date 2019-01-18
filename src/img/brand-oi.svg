@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="43px" viewBox="0 0 41 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Brand Oi</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="16.3668674%" y1="12.2440288%" x2="90.1278807%" y2="81.479302%" id="linearGradient-1">
+            <stop stop-color="#00CDFF" offset="0%"></stop>
+            <stop stop-color="#00CED9" offset="5%"></stop>
+            <stop stop-color="#00CF9F" offset="14%"></stop>
+            <stop stop-color="#00D06E" offset="23%"></stop>
+            <stop stop-color="#00D148" offset="31%"></stop>
+            <stop stop-color="#00D22D" offset="38%"></stop>
+            <stop stop-color="#00D21D" offset="45%"></stop>
+            <stop stop-color="#00D217" offset="50%"></stop>
+            <stop stop-color="#06D316" offset="55%"></stop>
+            <stop stop-color="#16D615" offset="61%"></stop>
+            <stop stop-color="#31DB13" offset="68%"></stop>
+            <stop stop-color="#57E10F" offset="76%"></stop>
+            <stop stop-color="#88EA0B" offset="84%"></stop>
+            <stop stop-color="#C2F405" offset="92%"></stop>
+            <stop stop-color="#FFFF00" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu---Desktop-Home---1440" transform="translate(-121.000000, -59.000000)" fill-rule="nonzero">
+            <g id="Brand-Oi" transform="translate(121.000000, 59.000000)">
+                <g id="Logos" fill="url(#linearGradient-1)">
+                    <path d="M20.1886025,42.6360742 C25.747597,43.694941 33.9390852,42.9459865 33.9390852,33.4794142 C33.9390852,18.2741222 45.4804442,15.9925268 39.0520936,6.80825972 C31.2722153,-4.31206838 5.00246097,-1.84078541 0.78594784,14.45009 C-2.9592494,28.8832732 7.20253819,40.1639007 20.1886025,42.6360742 Z" id="Shape"></path>
+                </g>
+                <g id="OI" transform="translate(12.000000, 13.000000)" fill="#FFFFFF">
+                    <path d="M13.9972123,3.99999801 C15.1016576,4.00153862 15.9982845,3.10754824 15.9999975,2.00310201 C16.0017105,0.898655774 15.1078611,0.00188836274 14.0034163,2.97759717e-06 C12.8989715,-0.00188240754 12.0020656,0.891828026 12.0000078,1.99627367 C11.9985239,2.52701873 12.208258,3.03654792 12.5829406,3.41245369 C12.9576232,3.78835946 13.4664658,3.99975277 13.9972123,3.99999801 Z M14.0013714,5 C12.8987429,5 12,7.46284021 12,10.5004289 C12,13.5380176 12.8987429,16 14.0013714,16 C15.104,16 16,13.5388755 16,10.5004289 C16,7.46198238 15.1049143,5 14.0004571,5 L14.0013714,5 Z M5.50597776,5 C2.19521779,5 0,7.43996569 0,10.4991424 C0,13.558319 2.19889641,16 5.50597776,16 C8.81305911,16 11,13.5626072 11,10.4991424 C11,7.43567753 8.8029429,5 5.50505811,5 L5.50597776,5 Z M5.50439883,13.9973436 C3.89247312,13.9973436 3,12.4973436 3,10.9760921 C3,9.45484061 3.89247312,8 5.50439883,8 C7.11632454,8 8,9.45749705 8,10.9760921 C8,12.4946871 7.10948192,14 5.50342131,14 L5.50439883,13.9973436 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
